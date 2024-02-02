@@ -1,0 +1,552 @@
+
+
+
+body {
+    background-color:#ffffff;
+    color: hsl(0, 0%, 0%);
+    font-size: 1.35em;
+    font-weight: 400;
+    font-family: 'Alegreya', serif;  
+    line-height: 1.9em;
+}
+
+    
+
+.img1 {
+    top: 0em;
+    right: 50%;
+    height: 4em;
+    width: 10em;
+ }
+ .img1:hover {
+    top: 0em;
+    right: 50%;
+    height: 4em;
+    width: 10em;
+    opacity: 30%;
+ }
+
+.div1 {
+    position:sticky;
+    top:0;
+    background-color:#ffffff;
+    max-height: 5em;
+    align-items: center;
+    border-bottom:linear-gradient(blue,purple,pink, orange, yellow, green);
+    border-bottom-width: 4px;
+    border-bottom-style: solid;
+}
+
+.div1 a[ href="a propos del'asso.html"] {
+    text-decoration: none;
+    color:#ffffff;
+    background-color: #fcadeb;
+    padding: 5px;
+    border-radius: 4%;
+}
+
+.div1 a[href="Actvités.html"] {
+    text-decoration: none;
+    color:#ffffff;
+    background-color:#009b71;
+    padding: 5px;
+    border-radius: 4%;
+}
+.div1 a[href="contact version 1.html"] {
+    text-decoration: none;
+    color:#ffffff;
+    background-color: #f9963a;
+    padding: 5px;
+    border-radius: 4%;
+}
+
+
+
+.a {
+    
+     display: flex; /* obligatoire*/
+     flex-direction: row;
+     justify-content: flex-end; 
+     column-gap: 5%;  /*distance entre les éléments flex*/
+     width: 50%;
+     flex-wrap: nowrap; /* désactive retour ligne pour responsive*/
+     position: absolute;
+     right: 0%;
+     margin-left: 5%;
+     top: 30%;  
+    
+}
+
+.sexe {
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    gap:1,8em;
+}
+
+
+.textacceuil {
+    margin: auto;
+    height:50%;
+    width: 50%;
+    background-color: hsl(40, 100%, 78%);
+    font-size: 0.75em;
+    border: 1em solid pink;
+    font-family: 'Alegreya', serif; 
+    border-style: inset;
+    color:#000000;
+    text-align: left;
+    padding: 0.7em;
+}
+
+
+.accueil-photos {
+    background-color: white;
+    padding: 2em; /* entre ligne blanche du haut et titre*/
+}
+  
+.accueil-photos img  {
+    height: 10em;
+    width:15em;
+    margin:1em;
+}
+
+
+  
+.accueil-photos h2 {
+    color: #242424;
+    text-align: center;
+    margin-bottom: 2,4em; /* entre titre et photos*/
+}
+  
+.accueil-photos div {
+    display: flex;
+    flex-direction: row; 
+    justify-content:center;
+    margin-bottom: 1,2em;
+    
+ }
+  
+.divbas {
+    background: linear-gradient(to right, rgba(0, 0, 255, 0.63),rgba(203, 9, 203, 0.63),rgba(255, 192, 203, 0.634), rgba(255, 166, 0, 0.63), rgba(255, 255, 0, 0.634), rgba(0, 128, 0, 0.654))  ;
+    
+    height:4em;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;
+  
+  
+}
+
+
+.divbaslien {
+    font-family: 'Alegreya', serif;  
+    font-size: 1.1em;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.divbaslien:hover {
+    font-family: 'Alegreya', serif;  
+    font-size: 1.2em;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    
+}
+
+
+   
+
+.liste {
+    color: #000000;
+    font-size: 1em;
+    font-weight: 1em;
+    font-family: 'Alegreya', serif;  
+    line-height: 1.4em;
+    margin:auto;
+    padding:1em;
+    border-color: #e06f06;
+    border-width: 2px;
+    border-style: double;
+
+}
+
+h1  {
+    color:#000000;
+    font-size: 2em;
+    font-family: 'Merienda', cursive;    
+    font-weight:  1.5em;
+    text-align: center ;
+}
+
+.programme1 {  /* activités, bouton técharchéer programme */
+    display:flex;
+    justify-content: center;
+    background-color: #009b71;
+    height:3em;
+    align-items: center;
+    width: 20em;
+    margin:auto;
+    border-radius:30px ;
+    padding: 15px; 
+    text-decoration: none;
+    font-family: 'Merienda', cursive;  
+    color: white;
+    font-size: 85%;
+}
+
+#center {
+    padding: 1em; 
+    text-decoration: none;
+    font-family: 'Alegreya', serif;  
+    color: white;
+    font-size: 90%;
+}
+
+.programme1:hover {  /* activités, bouton técharchéer programme */
+    
+   
+    background-color: #438eff;
+   
+    
+}
+
+
+.rejoindre /*permet d'aligner avec container*/ {   
+     display: flex; /* obligatoire*/
+     flex-direction: row;
+     justify-content: space-around; 
+     max-height: 5em;
+     align-items: center;
+     flex-wrap: wrap; /* désactive retour ligne pour responsive*/
+}
+/*
+font-family: 'Alegreya', serif;              text
+font-family: 'Cinzel', serif;              acceuil
+font-family: 'Merienda', cursive;            titre
+*/
+
+
+.lien-conteneur-photo:hover {
+    opacity: 70%;
+ 
+}
+  
+ 
+
+
+/*page rejoindre et nous contacter */
+
+form {
+
+    display: flex;
+    flex-direction: column;
+    margin:auto ;
+
+}
+input{
+    background-color: white;
+    font-size: 1em;
+    font-family: 'Alegreya', serif;  
+    padding:1%;
+}
+
+textarea {
+    background-color: white;
+    font-size: 1em;
+    font-family: 'Alegreya', serif;  
+    text-align: left;
+    display: flex;
+    max-height:12em;
+    width: 100%;
+    padding: 1em;
+}
+
+legend {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 6px;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #242424;
+    margin-left: 30px;
+}
+
+fieldset{
+    background-color: #90adff;
+    color: #242424;
+}
+
+input {
+    border-radius: 5px;
+    height: 10px;
+    border: none;
+}
+
+input:hover {
+    border:solid;
+    border-color: #242424;
+    background-color: #f9f9f287;
+}
+
+:required {
+    border-width: 3px;
+    
+}
+
+
+.formulaire {
+    display: inline;
+    flex-direction: row;
+    gap:50px;
+    
+}
+input[id="objet"] {
+    width: 100%;
+    padding: 1em;
+    margin-right: 50%;
+    
+}
+
+.valider {
+    margin:auto;
+    padding:2em;
+    background-color: hsl(236, 100%, 50%);
+    color: black;
+    border-radius: 30px 30px 30px 30px;
+    padding-top: 1em;
+    
+}
+.valider:hover {
+    margin:auto;
+    padding:2em;
+    background-color: #ae43ff;
+    color: #242424;
+    border-radius: 30px 30px 30px 30px;
+    padding-top: 1em;
+    
+}
+
+input [type=checkbox] {
+    color: #ffffff;
+    text-align: left;
+    font-size: 1em; 
+    font-family: 'Alegreya', serif;   
+
+}
+
+.validation {
+   
+    display: flex; /* obligatoire*/
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+/* page FAQ*/
+
+
+
+
+h1 {
+    text-align: center;
+    font-family: 'Cinzel', serif;  
+    margin-bottom: 1em ;   
+    margin-top: 2em ;           
+}
+
+.details {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    gap: 2em;
+
+}
+
+.details a {
+    text-decoration: none;
+}
+
+
+
+details summary {
+     
+     border-radius: 10px;
+     background-color: rgb(255, 240, 208);
+     color:black;
+     padding: 10px;
+     width:33em;
+     border-color: #e06f06;
+     border-width: 2px;
+    
+
+}
+
+details  {
+   
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    color:black;
+    line-height: 1,5;
+    width:33em;
+    
+ 
+
+}
+
+
+
+
+
+
+
+/* Page club*/
+
+ h2 {
+    color:#009b71;
+    text-align: left;
+    text-decoration: underline;
+    text-decoration-style: double;
+    font-size: 1em;
+    font-family: 'Merienda', cursive; 
+    margin-left: 2em;
+    margin-bottom: 1em;
+}
+.club p {
+    text-align: left;
+    line-height: 2em;
+    color: #0c2a7c;
+    margin-left:3em;
+    margin-right: 6em;
+    margin-top: 2em;
+
+}
+.club h3 {
+    color:rgb(0, 0, 0);
+    text-align: left;
+    font-size: 1em;
+    font-family: 'Merienda', cursive; 
+    margin-left: 4em;
+    margin-bottom: 1em;
+}
+
+.sommaire {
+    margin-left: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+ 
+}
+
+.mise {
+     
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.droite {
+    margin-bottom:0%;
+}
+ 
+
+.a1  {
+    text-decoration: none;
+    color: #558dff;
+    border-bottom: #000000;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    margin-right:2em;
+    margin-right: 2%;
+    padding: 1em;
+  
+}
+.a2  {
+    text-decoration: none;
+    padding: 1em;
+    color: #de0aff;
+    border-bottom: #000000;
+   border-bottom-style: solid;
+   border-bottom-width: 2px;
+   margin-right:2em;
+   margin-right: 2%;
+   padding: 1em;
+   
+  
+}
+.a3  {
+    text-decoration: none;
+    color: #f561d5;
+    border-bottom: #000000;
+   border-bottom-style: solid;
+   border-bottom-width: 2px;
+   margin-right:2em;
+   margin-right: 2%;
+   padding: 1em;
+}
+
+.a4  {
+    text-decoration: none;
+    color: #e06f06;
+    border-bottom: #000000;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    margin-right:2em;
+    margin-right: 2%;
+    padding: 1em;
+   
+}
+.a5  {
+    text-decoration: none;
+    color: #2ca102;
+    border-bottom: #000000;
+   border-bottom-style: solid;
+   border-bottom-width: 2px;
+   margin-right:2em;
+   margin-right: 2%;
+   padding: 1em;
+   
+}
+.a6  {
+    text-decoration: none;
+    border-bottom: #000000;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    margin-right:2em;
+    margin-right: 2%;
+    padding: 1em;
+   
+}
+.club a:hover  {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+.class section {
+    border-color: #90adff;
+    margin: 1em;
+    padding: 1em;
+    
+}
+
+.blabla {
+    display: flex;
+
+    flex-direction: column;
+    row-gap: 10em;
+    margin-left: 15%;
+}
+
+
+
+
